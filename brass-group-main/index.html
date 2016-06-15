@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Brass Group</title>
+
+<link href='http://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+<script src="https://use.fontawesome.com/3420f96515.js"></script>
+
+
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+
+
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-custom navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#home">Uptown Brass Quintet</a>
+    </div>
+    <ul class="nav navbar-nav pull-right">
+      <li class="active"><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#upcoming-events">Upcoming Events</a></li>
+      <li><a href="#contact-us">Contact Us</a></li>
+    </ul>
+  </div>
+</nav>
+<!--this is the tag for home-->
+<div id="home"></div>
+<!--------------------->
+<div class="jumbotron black">
+  <div class="container text-center">
+    <a><img src="pictures/bricoleurmedia9.jpg" title="source: imgur.com" /></a>
+  </div>
+  <!--this is the about tag-->
+  <div id="about"></div>
+  <!-------------->
+</div>
+<div class="container">
+  <h1>The Musicians</h1>
+  <div class="row">
+    <div class="col-sm-4">
+      <a><img src="pictures/bricoleurmedia1.jpg" title="source: imgur.com" /></a>
+    </div>
+    <div class="col-sm-4">
+      <a><img src="pictures/bricoleurmedia3.jpg" title="source: imgur.com" /></a>
+    </div>
+    <div class="col-sm-4">
+      <a><img src="pictures/bricoleurmedia0.jpg" title="source: imgur.com" /></a>
+    </div>
+      <div class="col-sm-4 top-buffer">
+        <a><img src="pictures/bricoleurmedia2.jpg" title="source: imgur.com" /></a>
+      </div>
+      <div class="col-sm-4 top-buffer">
+        <a><img src="pictures/bricoleurmedia4.jpg" title="source: imgur.com" /></a>
+      </div>
+      <div class="col-sm-4 top-buffer">
+        <a><img src="pictures/bricoleurmedia1.jpg" title="source: imgur.com" /></a>
+      </div>
+  </div>
+</div>
+<br>
+<div id="upcoming-events"></div>
+<hr class="style2">
+  <div class="container top-buffer">
+    <h1 style="color: black;">Upcoming Events</h1>
+    <p style="color: black;"><big>There are currently no upcoming events near you. Feel free to contact us below to schedule us for your next event!</big></p>
+  <br /><br />
+  </div>
+</div>
+<hr class="style2">
+<!--Contact form begins-->
+<div id="contact-us"></div>
+<h1>Contact Us</h1>
+<a class="btn btn-block btn-social btn-facebook" href="https://www.facebook.com/UptownBrassQuintet/">
+    <span class="fa fa-facebook-square fa-3x"></span>
+  </a>
+<div class="container">
+  <?=$thankYou ?>
+  <form action="https://formspree.io/someguynamedzac@gmail.com" method="post" enctype="text/plain">
+    <div class="form-group" role="form">
+    <div class="form-group">
+      <label for="email">Email:
+      </label>
+      <input type="email" class="form-control" id="email" name="email" placeholder="example@example.com"/>
+    </div>
+    <div class="form-group">
+      <label for="name">Name:</label>
+      <input type="text" class="form-control" id="name" name="name" placeholder="Your Name Here"/>
+    </div>
+    <div class="form-group">
+      <label for="message">Message:</label>
+      <textarea class="form-control" name="message" placeholder="Your Message Here" id="message" cols="30" rows="10"></textarea>
+    </div>
+    <div class="form-group">
+    <input name="checkbox" type="checkbox" />Keep me up to date with new events!
+    </div>
+    <button type="submit" class="btn btn-default">Submit</button>
+  </form>
+</div>
+
+    <footer class="text-center">
+      <hr>
+    <p>©2016 Zachary Addison Hyder All Rights Reserved</p>
+  </footer>
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+
+
+
+
+
+  </body>
+</html>
